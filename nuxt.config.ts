@@ -3,7 +3,7 @@ export default {
   target: "static",
   app: {
     head: {
-      title: "POP HIRS",
+      title: "hayyiz-hriS",
       htmlAttrs: { lang: "en" },
       meta: [
         { charset: "utf-8" },
