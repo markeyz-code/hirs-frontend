@@ -68,6 +68,7 @@ useHead({
   title: 'Sign In | Hayyiz HRIS',
 })
 
+const router = useRouter();
 const showModal = ref(false);
 const processing = ref(false);
 const showPassword = ref(false)
@@ -124,6 +125,7 @@ const handleSubmit = async () => {
       autoClose: 5000,
       dangerouslyHTMLString: true,
     });
+    router.push("/");
   } catch (error) {
     if (typeof window !== "undefined") {
       useNuxtApp().$toast.error("Error occured whhile submiting form", {
