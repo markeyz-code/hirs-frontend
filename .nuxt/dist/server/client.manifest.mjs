@@ -1,20 +1,39 @@
 export default {
-  "_nuxt-link.cd7168a6.js": {
+  "_hayyiz-logo.bf2687b7.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "nuxt-link.cd7168a6.js",
+    "assets": [
+      "hayyiz-logo.0cde6adc.jpg"
+    ],
+    "file": "hayyiz-logo.bf2687b7.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
-  "_vue.f36acd1f.b5492729.js": {
+  "hayyiz-logo.0cde6adc.jpg": {
+    "file": "hayyiz-logo.0cde6adc.jpg",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/jpeg"
+  },
+  "_nuxt-link.8a2a522e.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "vue.f36acd1f.b5492729.js",
+    "file": "nuxt-link.8a2a522e.js",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.js"
+    ]
+  },
+  "_vue.f36acd1f.baa28c98.js": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "file": "vue.f36acd1f.baa28c98.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
@@ -32,6 +51,13 @@ export default {
     "mimeType": "image/jpeg",
     "file": "founder_2.2dbb94df.jpg",
     "src": "assets/img/founder_2.jpg"
+  },
+  "assets/img/hayyiz-logo.jpg": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/jpeg",
+    "file": "hayyiz-logo.0cde6adc.jpg",
+    "src": "assets/img/hayyiz-logo.jpg"
   },
   "assets/img/hris_benefits.jpg": {
     "resourceType": "image",
@@ -59,7 +85,7 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "default.b46ea3c6.js",
+    "file": "default.86c530bd.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -71,7 +97,7 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "auth.0583928f.js",
+    "file": "auth.19081e11.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -93,10 +119,10 @@ export default {
     "css": [
       "error-404.95c28eb4.css"
     ],
-    "file": "error-404.73bf11c6.js",
+    "file": "error-404.214333cb.js",
     "imports": [
-      "_nuxt-link.cd7168a6.js",
-      "_vue.f36acd1f.b5492729.js",
+      "_nuxt-link.8a2a522e.js",
+      "_vue.f36acd1f.baa28c98.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "isDynamicEntry": true,
@@ -123,9 +149,9 @@ export default {
     "css": [
       "error-500.e798523c.css"
     ],
-    "file": "error-500.a202691e.js",
+    "file": "error-500.10983dd0.js",
     "imports": [
-      "_vue.f36acd1f.b5492729.js",
+      "_vue.f36acd1f.baa28c98.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "isDynamicEntry": true,
@@ -141,7 +167,7 @@ export default {
     "resourceType": "style",
     "prefetch": true,
     "preload": true,
-    "file": "entry.a7709ceb.css",
+    "file": "entry.d210833e.css",
     "src": "node_modules/nuxt/dist/app/entry.css"
   },
   "node_modules/nuxt/dist/app/entry.js": {
@@ -150,7 +176,7 @@ export default {
     "prefetch": true,
     "preload": true,
     "css": [
-      "entry.a7709ceb.css"
+      "entry.d210833e.css"
     ],
     "dynamicImports": [
       "middleware/auth.ts",
@@ -158,12 +184,12 @@ export default {
       "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
       "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue"
     ],
-    "file": "entry.ddae1131.js",
+    "file": "entry.b45a86b0.js",
     "isEntry": true,
     "src": "node_modules/nuxt/dist/app/entry.js"
   },
-  "entry.a7709ceb.css": {
-    "file": "entry.a7709ceb.css",
+  "entry.d210833e.css": {
+    "file": "entry.d210833e.css",
     "resourceType": "style",
     "prefetch": true,
     "preload": true
@@ -173,11 +199,12 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "auth.c3779ee3.js",
+    "file": "auth.f1a04b73.js",
     "imports": [
-      "_nuxt-link.cd7168a6.js",
+      "_nuxt-link.8a2a522e.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_vue.f36acd1f.b5492729.js"
+      "_vue.f36acd1f.baa28c98.js",
+      "_hayyiz-logo.bf2687b7.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/auth.vue"
@@ -204,11 +231,12 @@ export default {
     "css": [
       "index.7a6232ae.css"
     ],
-    "file": "index.d372bc10.js",
+    "file": "index.73eaa17a.js",
     "imports": [
-      "_nuxt-link.cd7168a6.js",
+      "_nuxt-link.8a2a522e.js",
+      "_hayyiz-logo.bf2687b7.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_vue.f36acd1f.b5492729.js"
+      "_vue.f36acd1f.baa28c98.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/index.vue"

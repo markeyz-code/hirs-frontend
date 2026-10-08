@@ -9,8 +9,8 @@
     <!-- Login Card -->
     <div class="relative z-10 w-full max-w-md p-8 sm:p-10 rounded-3xl bg-white border border-slate-200 shadow-xl">
       <div class="text-center mb-8">
-        <NuxtLink to="/" class="inline-flex items-center justify-center p-3 rounded-2xl bg-blue-50 text-blue-600 flex-shrink-0 mb-6 hover:bg-blue-100 transition-colors">
-          <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
+        <NuxtLink to="/" class="inline-block mb-6 transition-transform hover:scale-105">
+          <img src="@/assets/img/hayyiz-logo.jpg" alt="Hayyiz Logo" class="h-16 w-auto rounded-2xl shadow-sm mx-auto" />
         </NuxtLink>
         <h2 class="text-2xl font-bold tracking-tight text-slate-900">Welcome to Hayyiz HRIS</h2>
         <p class="mt-2 text-sm text-slate-500">Sign in to manage your enterprise workforce</p>

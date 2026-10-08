@@ -4,9 +4,7 @@
     <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-xl border-b border-slate-200">
       <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         <div class="flex items-center gap-3">
-          <div class="bg-blue-600 p-2 rounded-lg">
-             <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
-          </div>
+          <img src="@/assets/img/hayyiz-logo.jpg" alt="Hayyiz Logo" class="h-10 w-auto rounded-lg shadow-sm" />
           <span class="text-xl font-bold tracking-tight text-slate-900">Hayyiz HRIS</span>
         </div>
         <div class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600">
@@ -159,9 +157,7 @@
       <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8">
         <div class="md:col-span-1">
           <div class="flex items-center gap-2 mb-6">
-            <div class="bg-blue-600 p-1.5 rounded-md">
-              <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
-            </div>
+            <img src="@/assets/img/hayyiz-logo.jpg" alt="Hayyiz Logo" class="h-8 w-auto rounded-md shadow-sm" />
             <span class="text-lg font-bold text-white">Hayyiz HRIS</span>
           </div>
           <p class="text-sm text-slate-400">
