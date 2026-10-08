@@ -1,18 +1,252 @@
 export default {
-  "@vite/client": {
-    "prefetch": true,
-    "isEntry": true,
-    "file": "@vite/client",
-    "css": [],
-    "module": true,
-    "resourceType": "script"
-  },
-  "/Users/marquis/hirs/frontend/node_modules/nuxt/dist/app/entry.js": {
+  "_nuxt-link.cd7168a6.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
+    "file": "nuxt-link.cd7168a6.js",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.js"
+    ]
+  },
+  "_vue.f36acd1f.b5492729.js": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "file": "vue.f36acd1f.b5492729.js",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.js"
+    ]
+  },
+  "assets/img/founder_1.jpg": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/jpeg",
+    "file": "founder_1.98e94040.jpg",
+    "src": "assets/img/founder_1.jpg"
+  },
+  "assets/img/founder_2.jpg": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/jpeg",
+    "file": "founder_2.2dbb94df.jpg",
+    "src": "assets/img/founder_2.jpg"
+  },
+  "assets/img/hris_benefits.jpg": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/jpeg",
+    "file": "hris_benefits.1550dd5d.jpg",
+    "src": "assets/img/hris_benefits.jpg"
+  },
+  "assets/img/hris_promotion.jpg": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/jpeg",
+    "file": "hris_promotion.f330f6d9.jpg",
+    "src": "assets/img/hris_promotion.jpg"
+  },
+  "assets/img/hris_stock.jpg": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/jpeg",
+    "file": "hris_stock.89334e6c.jpg",
+    "src": "assets/img/hris_stock.jpg"
+  },
+  "layouts/default.vue": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "file": "default.b46ea3c6.js",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "layouts/default.vue"
+  },
+  "middleware/auth.ts": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "file": "auth.0583928f.js",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "middleware/auth.ts"
+  },
+  "node_modules/@nuxt/ui-templates/dist/templates/error-404.css": {
+    "resourceType": "style",
+    "prefetch": true,
+    "preload": true,
+    "file": "error-404.95c28eb4.css",
+    "src": "node_modules/@nuxt/ui-templates/dist/templates/error-404.css"
+  },
+  "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "css": [
+      "error-404.95c28eb4.css"
+    ],
+    "file": "error-404.73bf11c6.js",
+    "imports": [
+      "_nuxt-link.cd7168a6.js",
+      "_vue.f36acd1f.b5492729.js",
+      "node_modules/nuxt/dist/app/entry.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue"
+  },
+  "error-404.95c28eb4.css": {
+    "file": "error-404.95c28eb4.css",
+    "resourceType": "style",
+    "prefetch": true,
+    "preload": true
+  },
+  "node_modules/@nuxt/ui-templates/dist/templates/error-500.css": {
+    "resourceType": "style",
+    "prefetch": true,
+    "preload": true,
+    "file": "error-500.e798523c.css",
+    "src": "node_modules/@nuxt/ui-templates/dist/templates/error-500.css"
+  },
+  "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "css": [
+      "error-500.e798523c.css"
+    ],
+    "file": "error-500.a202691e.js",
+    "imports": [
+      "_vue.f36acd1f.b5492729.js",
+      "node_modules/nuxt/dist/app/entry.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue"
+  },
+  "error-500.e798523c.css": {
+    "file": "error-500.e798523c.css",
+    "resourceType": "style",
+    "prefetch": true,
+    "preload": true
+  },
+  "node_modules/nuxt/dist/app/entry.css": {
+    "resourceType": "style",
+    "prefetch": true,
+    "preload": true,
+    "file": "entry.a7709ceb.css",
+    "src": "node_modules/nuxt/dist/app/entry.css"
+  },
+  "node_modules/nuxt/dist/app/entry.js": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "css": [
+      "entry.a7709ceb.css"
+    ],
+    "dynamicImports": [
+      "middleware/auth.ts",
+      "layouts/default.vue",
+      "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
+      "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue"
+    ],
+    "file": "entry.ddae1131.js",
     "isEntry": true,
-    "file": "/Users/marquis/hirs/frontend/node_modules/nuxt/dist/app/entry.js"
+    "src": "node_modules/nuxt/dist/app/entry.js"
+  },
+  "entry.a7709ceb.css": {
+    "file": "entry.a7709ceb.css",
+    "resourceType": "style",
+    "prefetch": true,
+    "preload": true
+  },
+  "pages/auth.vue": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "file": "auth.c3779ee3.js",
+    "imports": [
+      "_nuxt-link.cd7168a6.js",
+      "node_modules/nuxt/dist/app/entry.js",
+      "_vue.f36acd1f.b5492729.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "pages/auth.vue"
+  },
+  "pages/index.css": {
+    "resourceType": "style",
+    "prefetch": true,
+    "preload": true,
+    "file": "index.7a6232ae.css",
+    "src": "pages/index.css"
+  },
+  "pages/index.vue": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "assets": [
+      "hris_promotion.f330f6d9.jpg",
+      "hris_stock.89334e6c.jpg",
+      "hris_benefits.1550dd5d.jpg",
+      "founder_1.98e94040.jpg",
+      "founder_2.2dbb94df.jpg"
+    ],
+    "css": [
+      "index.7a6232ae.css"
+    ],
+    "file": "index.d372bc10.js",
+    "imports": [
+      "_nuxt-link.cd7168a6.js",
+      "node_modules/nuxt/dist/app/entry.js",
+      "_vue.f36acd1f.b5492729.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "pages/index.vue"
+  },
+  "index.7a6232ae.css": {
+    "file": "index.7a6232ae.css",
+    "resourceType": "style",
+    "prefetch": true,
+    "preload": true
+  },
+  "hris_promotion.f330f6d9.jpg": {
+    "file": "hris_promotion.f330f6d9.jpg",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/jpeg"
+  },
+  "hris_stock.89334e6c.jpg": {
+    "file": "hris_stock.89334e6c.jpg",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/jpeg"
+  },
+  "hris_benefits.1550dd5d.jpg": {
+    "file": "hris_benefits.1550dd5d.jpg",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/jpeg"
+  },
+  "founder_1.98e94040.jpg": {
+    "file": "founder_1.98e94040.jpg",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/jpeg"
+  },
+  "founder_2.2dbb94df.jpg": {
+    "file": "founder_2.2dbb94df.jpg",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/jpeg"
   }
 }
